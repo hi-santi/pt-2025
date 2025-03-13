@@ -1,0 +1,88 @@
+body {
+  background-color:rgb(233, 233, 233);
+
+  .app-header {
+    background-color: #fff;
+    padding: 20px 0px;
+
+    p {
+      margin: 0px;
+    }
+  }
+  .app-container {
+    position: relative;
+    width: 1200px;
+    max-width: 100%;
+    padding: 0 20px;
+    margin: 0 auto !important;
+    box-sizing: border-box;
+  }
+
+  .app-card {
+    padding: 30px;
+    background-color: #fff;
+    margin-top: 30px;
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+
+      td, th {
+        border: 1px solid rgb(216, 216, 216);
+        text-align: left;
+        padding: 8px;
+      }
+
+      tr:nth-child(even) {
+        background-color: rgb(250, 250, 250);
+      }
+
+      .tr {
+        text-align: right;
+
+        button {
+          margin: 0 4px;
+        }
+      }
+    }
+  }
+
+  form {
+    margin-top: 40px;
+
+    h2 {
+      border-bottom: 1px solid gray;
+      padding-bottom: 20px;
+      margin-bottom: 30px;
+    }
+
+    div {
+      display: block;
+      margin-bottom: 10px;
+
+      label {
+        display: inline-block;
+        width: 90px;
+      }
+      input {
+        height: 26px;
+        padding: 0 10px;
+      }
+    }
+
+    button {
+      border: 0px;
+      background-color: #000;
+      color: #fff;
+      height: 26px;
+      padding: 0 40px;
+      margin-top: 30px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #303030;
+      }
+    }
+  }
+}
+
